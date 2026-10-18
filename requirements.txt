@@ -1,0 +1,20 @@
+# Core
+numpy
+pandas
+
+# PDF handling (the rulebook PDF uses empty-password AES encryption)
+pypdf
+cryptography
+
+# Dense retrieval (bi-encoder) and re-ranking (cross-encoder)
+sentence-transformers
+faiss-cpu
+
+# Answer generation (local Qwen model via Hugging Face transformers)
+transformers
+torch
+accelerate
+
+# Notebook
+jupyter
+ipykernel

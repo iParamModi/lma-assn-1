@@ -1,0 +1,31 @@
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Downloaded corpus (third-party rulebook, fetched at runtime)
+data/*.pdf
+
+# Assignment brief (kept local, not part of the deliverable)
+RAG_LMA_Assignment_v1.txt
+RAG_LMA_Assignment_v1.pdf
+
+# Caches
+.cache/
+*.log
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Claude Code local state
+.claude/
